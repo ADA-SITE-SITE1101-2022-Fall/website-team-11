@@ -46,7 +46,7 @@ a:visited{
   width: 300px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;  
+  color: #8e8b8b;
   position: relative;
 }
 
@@ -79,3 +79,64 @@ a:visited{
   height: 100px;
   padding: 5px;
 }
+
+body.about{
+  background: #8FBC8B;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  max-width: 1100p;
+  margin: 0 auto;
+  padding 0 48px;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.container h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.container h2{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.image{
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+p{
+  font-size: 32px;
+  color: #fff;
+  line-height: 80px;
+  margin-bottom: 80px;
+}
+.btn{
+  display: inline-block;
+  padding: 40px 43px;
+  background: #f6f6f6;
+  font-size: 32px;
+  text-decoration: none;
+  color: #398f51;
+  border-radius: 10px;
+  transition: background 0.5s;
+}
+
+.btn:hover{
+  background: #dadada;
+}
+  
+
+
+
+  
+  
+  
+  
+
