@@ -7,43 +7,43 @@
 }
 
 nav{
-	width: 100%;
-	height: 75px;
-	background-color: #006821;
-	line-height: 75px;
-	padding:0px 100px;
+    width: 100%;
+    height: 75px;
+    background-color: #006821;
+    line-height: 75px;
+    padding:0px 100px;
     position: fixed;
-	z-index: 1;
+    z-index: 1;
 }
 nav .logo{
-	font-size: 30px;
-	font-weight: bold;
-	letter-spacing: 1.5px; 
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
 nav .logo p{
-	float: left;
-	color:#fff;
-	text-transform: uppercase;
+    float: left;
+    color:#fff;
+    text-transform: uppercase;
 }
 nav ul{
-	float: right;
+    float: right;
 }
 nav ul li{
-	display: inline-block;
-	list-style: none;
+    display: inline-block;
+    list-style: none;
 }
 nav ul li a{
-	color:#fff;
-	text-decoration: none;
-	font-size: 18px;
-	text-transform: uppercase;
-	padding:0px 32px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 32px;
 }
 nav ul li a:hover{
-	color:#81c644;
+    color:#81c644;
 }
 nav ul li .active{
-	color:#81c644;
+    color:#81c644;
 }
 
 
@@ -127,14 +127,16 @@ body.about{
 }
 
 .container{
-  max-width: 1100p;
+  max-width: 1100px;
   margin: 0 auto;
-  padding 0 3rem;
-  margin-top: 4rem;
+  padding 0 48px;
+  margin-top: 64px;
   text-align: center;
 }
 
 .container h1{
+    color: #398f51;
+    font-weight: 700;
   font-family: 'Allura', cursive;
   font-size: 52px;
   margin-bottom: 60px;
@@ -142,8 +144,8 @@ body.about{
 }
 .container h2{
   color: #ccc;
-  margin: 12px 0;
-  font-size: 12px;
+  font-weight: 4000;
+  font-size: 64px;
   text-transform: uppercase;
 }
 
@@ -152,7 +154,7 @@ body.about{
   margin-bottom: 80px;
 }
 
-p{
+.container p{
   font-size: 32px;
   color: #fff;
   line-height: 80px;
