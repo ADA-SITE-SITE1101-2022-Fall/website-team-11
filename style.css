@@ -22,8 +22,7 @@ nav .logo{
 }
 nav .logo p{
     float: left;
-    color:#fff;
-    text-transform: uppercase;
+    color:#81c644;
 }
 nav ul{
     float: right;
