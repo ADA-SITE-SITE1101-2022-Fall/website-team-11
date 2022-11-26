@@ -174,7 +174,27 @@ body.about{
   background: #dadada;
 }
 
-  
+ol{
+    list-style-type: upper-alpha;
+    background-color: #398f51;
+    padding: 50px;
+}
+
+ol li{
+    background-color:#ccc;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+ol li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding:0px 32px;
+}
+
+
+
   
 
 
